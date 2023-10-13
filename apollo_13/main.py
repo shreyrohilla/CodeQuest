@@ -20,7 +20,7 @@ for i in range(cases):
         new_angles = float(j) - 180
 
         if new_angles < 0:
-            new_angles = new_angles + 360
+            new_angles += 360
 
         # print(new_angles)
 
